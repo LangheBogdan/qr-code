@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Mulish:wght@300&display=swap");
 html,
 body,
 p,
@@ -73,4 +74,46 @@ table {
 td,
 th {
   padding: 0;
+}
+
+body {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #D5E1EF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Merriweather", serif;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0476518);
+          box-shadow: 0 25px 25px rgba(0, 0, 0, 0.0476518);
+  height: 497px;
+  padding: 16px 16px 40px 16px;
+  max-width: 320px;
+}
+.card__image {
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.card__title {
+  color: #1F314F;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+.card__text {
+  color: #7D889E;
+  font-size: 15px;
+  font-family: "Mulish", sans-serif;
+  padding: 23px;
+  text-align: center;
 }
