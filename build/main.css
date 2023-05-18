@@ -91,6 +91,11 @@ body {
   min-height: 100vh;
 }
 
+@media screen and (max-width: 640px) {
+  body {
+    padding: 20px;
+  }
+}
 .card {
   background: #fff;
   border-radius: 20px;
